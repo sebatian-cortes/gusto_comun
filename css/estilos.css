@@ -1,0 +1,147 @@
+*{
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  header{
+    margin: 20px 0 0;
+    text-align: center;
+    border-bottom: 4px inset rgba(41, 41, 41, .5);
+    padding: 20px 0;
+    background-color: #06283D;
+}
+
+header img{
+    float: left;
+    margin-left: 20px;
+}
+
+  body{
+      background:url("../img/fondo.png");
+      font-family: Arial, Helvetica, sans-serif;
+  }
+
+  main{
+      background-color: #212A3E;
+      width: 1000px;
+      margin: 20px auto;
+      box-shadow: 10px 10px 20px #292929;
+      color: #FFF;
+      text-align: center;
+  }
+
+  nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-weight: bold;
+    background-color: #1363DF;
+ }
+
+ nav ul li{
+    display: inline-block;
+    padding: 0px 20px;
+    margin: 0 0 20px 0;
+  }
+
+  nav ul li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+ }
+
+ nav ul li a:hover{
+    color: #212A3E;
+  }
+  
+  section{
+      padding: 20px;
+      text-align: justify;
+  }
+
+  section h2{
+      font-size: 30px;
+      padding: 10px 0;
+      color: #ffffff;
+  }
+
+  section p{
+      margin: 20px 0;
+  }
+
+  h1{
+    font-size: 50px;
+    color: #F1F6F9;
+    text-align: center;
+    float: right;
+    margin: 75px 230px 0 0;
+}
+
+  footer{
+      padding: 20px;
+      text-align: center;
+      background-color: #DFF6FF;
+      margin: 20px 0;
+  }
+
+  /* CLASS */
+  .centrar{
+      margin-top: 30px;
+      text-align: center;
+  }
+  
+  .imgFloatRigth{
+    float: right;
+    margin-top: 100px;
+}
+  
+  .caja{
+      border: 1px solid #ffffff;
+      box-shadow: 2px 2px 2px #ffffff;
+      border-radius: 15px;
+      padding: 20px;
+      margin: 40px 50px;
+      float: right;
+      width: 59%;
+  }
+
+  .caja2{
+    border: 1px solid #ffffff;
+    box-shadow: 2px 2px 2px #ffffff;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px 50px;
+  
+}
+  
+  .clear{
+      clear: both;
+  }
+
+  .cajaImg2{
+    border: 1px solid #ffffff;
+    box-shadow: 2px 2px 2px #ffffff;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 70px;
+    float: left;
+    width: 55%;
+}
+
+.imgFloat2{
+    float: left;
+    margin-top: 120px;
+}.imgFloat2 img{
+    width: 400px;
+    height: 350px;
+}
+
+  /*ID*/
+
+#imgIndex img{
+    margin-top: 57px;
+float: left;
+}           
